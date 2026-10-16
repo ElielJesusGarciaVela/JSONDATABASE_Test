@@ -1,0 +1,100 @@
+{
+  "usuarios": [
+    {
+      "id_usuario": 1,
+      "nombre": "Laura García",
+      "email": "laura.garcia@email.com",
+      "fecha_registro": "2025-01-15"
+    },
+    {
+      "id_usuario": 2,
+      "nombre": "Carlos Martínez",
+      "email": "carlos.martinez@email.com",
+      "fecha_registro": "2025-02-20"
+    },
+    {
+      "id_usuario": 3,
+      "nombre": "Ana López",
+      "email": "ana.lopez@email.com",
+      "fecha_registro": "2025-03-10"
+    },
+    {
+      "id_usuario": 4,
+      "nombre": "Pablo Sánchez",
+      "email": "pablo.sanchez@email.com",
+      "fecha_registro": "2025-04-05"
+    },
+    {
+      "id_usuario": 5,
+      "nombre": "Marta Fernández",
+      "email": "marta.fernandez@email.com",
+      "fecha_registro": "2025-05-12"
+    }
+  ],
+  "prestamos": [
+    {
+      "id_prestamo": 101,
+      "id_usuario": 1,
+      "libro": "Don Quijote de la Mancha",
+      "fecha_prestamo": "2025-06-01",
+      "fecha_devolucion": "2025-06-15",
+      "devuelto": true
+    },
+    {
+      "id_prestamo": 102,
+      "id_usuario": 1,
+      "libro": "Cien años de soledad",
+      "fecha_prestamo": "2025-06-20",
+      "fecha_devolucion": "2025-07-04",
+      "devuelto": true
+    },
+    {
+      "id_prestamo": 103,
+      "id_usuario": 2,
+      "libro": "El principito",
+      "fecha_prestamo": "2025-07-01",
+      "fecha_devolucion": "2025-07-15",
+      "devuelto": false
+    },
+    {
+      "id_prestamo": 104,
+      "id_usuario": 3,
+      "libro": "La sombra del viento",
+      "fecha_prestamo": "2025-07-05",
+      "fecha_devolucion": "2025-07-19",
+      "devuelto": true
+    },
+    {
+      "id_prestamo": 105,
+      "id_usuario": 4,
+      "libro": "1984",
+      "fecha_prestamo": "2025-07-10",
+      "fecha_devolucion": "2025-07-24",
+      "devuelto": false
+    },
+    {
+      "id_prestamo": 106,
+      "id_usuario": 2,
+      "libro": "El código Da Vinci",
+      "fecha_prestamo": "2025-07-12",
+      "fecha_devolucion": "2025-07-26",
+      "devuelto": true
+    },
+    {
+      "id_prestamo": 107,
+      "id_usuario": 5,
+      "libro": "Harry Potter y la piedra filosofal",
+      "fecha_prestamo": "2025-07-15",
+      "fecha_devolucion": "2025-07-29",
+      "devuelto": false
+    },
+    {
+      "id_prestamo": 108,
+      "id_usuario": 3,
+      "libro": "El Hobbit",
+      "fecha_prestamo": "2025-07-18",
+      "fecha_devolucion": "2025-08-01",
+      "devuelto": true
+    }
+  ]
+}
